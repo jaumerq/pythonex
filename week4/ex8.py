@@ -1,3 +1,5 @@
+#	This finally works great! Thanks so much to my dear frien Oscar Daniel.
+
 #	4.6 Write a program to prompt the user for hours and rate per hour 
 #	using raw_input to compute gross pay. Award time-and-a-half for the 
 #	hourly rate for all hours worked above 40 hours. Put the logic to do
@@ -24,7 +26,7 @@ if inp>0:
 else:
 	print "No es un numero. "
 
-hours = computepay(float(inp))
+hours = computepay(float(inp)) #  Variable
 	
 inp = raw_input("Introduce euros hora ")
 
@@ -41,4 +43,4 @@ rate = inp
 pay = rate*hours
 print pay
 
-
+#	Yeap WORRKKSS!
