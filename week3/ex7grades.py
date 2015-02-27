@@ -30,5 +30,5 @@ elif   nota>=0.6:
 elif   nota<0.6:
 	print "F. "
   
-
+#Vamos a probar si funciona la sincronizacion.
 	
