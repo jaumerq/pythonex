@@ -1,4 +1,4 @@
-python "ex8.py"
+python "5.2.py"
 
 pause
 del "%0"
