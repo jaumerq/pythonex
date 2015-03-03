@@ -14,10 +14,10 @@ while True:
     if num == "done" : break
     try:
 		num = int(num)
+		if num < smallest or smallest == None :
+			smallest = num
 		if num > largest :
 			largest = num
-		if num < smallest :
-			smallest = num
     except:
 		print "Invalid input"
 
